@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView_Debug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/text_debug_info" />
+
+    <TextView
+        android:id="@+id/textView_Email"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_Debug"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/text_extra_email" />
+
+    <TextView
+        android:id="@+id/textView_Subject"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_msgEmail"
+        android:layout_alignStart="@id/textView_Email"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/text_extra_subject" />
+
+    <TextView
+        android:id="@+id/textView_Text"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_msgSubject"
+        android:layout_alignStart="@id/textView_Email"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/text_extra_text" />
+
+    <TextView
+        android:id="@+id/textView_Stream"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_msgText"
+        android:layout_alignStart="@id/textView_Email"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/text_extra_stream" />
+
+    <TextView
+        android:id="@+id/textView_msgEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView_Email"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_toEndOf="@id/textView_Email"
+        tools:text="@string/text_very_long_text" />
+
+    <TextView
+        android:id="@+id/textView_msgSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/textView_msgEmail"
+        android:layout_alignTop="@id/textView_Subject"
+        android:layout_marginEnd="@dimen/margin"
+        tools:text="@string/text_very_long_text" />
+
+    <TextView
+        android:id="@+id/textView_msgText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/textView_msgEmail"
+        android:layout_alignTop="@id/textView_Text"
+        android:layout_marginEnd="@dimen/margin"
+        tools:text="@string/text_very_long_text" />
+
+    <TextView
+        android:id="@+id/textView_msgStream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/textView_msgEmail"
+        android:layout_alignTop="@id/textView_Stream"
+        android:layout_marginEnd="@dimen/margin"
+        tools:text="@string/text_very_long_text" />
+
+</RelativeLayout>

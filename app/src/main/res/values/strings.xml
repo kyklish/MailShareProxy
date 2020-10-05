@@ -1,0 +1,15 @@
+<resources>
+	<string name="app_name">Mail Share Proxy</string>
+    <string name="recipient_key">recipients</string>
+    <string name="recipient_default_value">kyklish@ukr.net</string>
+    <string name="text_extra_stream">EXTRA_STREAM:</string>
+    <string name="text_extra_email">EXTRA_EMAIL:</string>
+    <string name="text_extra_subject">EXTRA_SUBJECT:</string>
+    <string name="text_extra_text">EXTRA_TEXT:</string>
+    <string name="text_recipients">RECIPIENT EMAIL:</string>
+    <string name="text_save">Save</string>
+    <string name="text_hint">Enter your email.</string>
+    <string name="text_debug_info">DEBUG INFO:</string>
+    <string name="text_very_long_text">Very long text. Very long text. Very long text. Very long text.</string>
+    <string name="text_description">Share to this app and it will re-share received data with added recipient email.</string>
+</resources>
